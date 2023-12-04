@@ -6,7 +6,7 @@
 <style scoped>
 .contenedor {
   position: relative;
-  width: 100vw;
+  width: 100%;
   height: 65vh;
   background: linear-gradient(356deg, #000 0.95%, rgba(0, 0, 0, 0) 45.9%);
 
@@ -20,7 +20,7 @@
   position: absolute;
   background-size: contain;
 
-  width: 100vw;
+  width: 100%;
 
   height: 86vh;
   background: linear-gradient(
@@ -29,5 +29,15 @@
     rgba(0, 0, 0, 0) 55.14%,
     #000 114.38%
   );
+}
+@media (max-width: 600px) {
+  .contenedor {
+    height: 55vh;
+    background-size: contain;
+  }
+}
+@media (max-width: 800px) {
+}
+@media (max-width: 1000px) {
 }
 </style>

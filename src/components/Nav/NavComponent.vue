@@ -109,7 +109,7 @@ export default {
 
 <style>
 .logo-muni {
-  width: 180px;
+  width: 190px;
 }
 </style>
 <style scoped>
@@ -124,6 +124,7 @@ export default {
   width: 100%;
   padding: 0 6rem;
   position: relative;
+  background: #fff;
 }
 
 .redes {
@@ -166,5 +167,31 @@ export default {
 }
 .btn:hover {
   color: #4b4a49;
+}
+@media (max-width: 800px) {
+  .top-nav-container {
+    padding: 0 2rem;
+  }
+  .nav-botones {
+    width: 100%;
+    position: absolute;
+    left: 0;
+  }
+  .btn {
+    font-size: 15px;
+  }
+  .buscador {
+    width: 58vw;
+    margin-right: 1rem;
+  }
+}
+@media (max-width: 1200px) {
+  .top-nav-container {
+    padding: 0 2rem;
+  }
+  .buscador {
+    width: 50vw;
+    margin-right: 1rem;
+  }
 }
 </style>

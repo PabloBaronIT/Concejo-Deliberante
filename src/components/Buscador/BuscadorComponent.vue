@@ -32,6 +32,16 @@ input {
   font-size: 27px;
   position: absolute;
   right: 1.5rem;
-  top: 1%;
+  margin-top: 1%;
+}
+@media (max-width: 800px) {
+  .contenedor {
+    width: 40vw;
+  }
+}
+@media (max-width: 1200px) {
+  .contenedor {
+    width: 50vw;
+  }
 }
 </style>
